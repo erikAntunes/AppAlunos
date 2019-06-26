@@ -21,14 +21,29 @@ public class MainActivity extends AppCompatActivity {
         List<Aluno> listaAlunos = new ArrayList<>();
 
         Aluno aluno = new Aluno();
-        aluno.setNome("Erik");
-        aluno.setCurso("Android");
+        aluno.setNome("Erik Antunes");
+        aluno.setCurso("Android Developers");
+        aluno.setCidade("São Paulo");
         listaAlunos.add(aluno);
 
         Aluno aluno1 = new Aluno();
-        aluno1.setNome("Paulo");
-        aluno1.setCurso("Android");
+        aluno1.setNome("Paulo Roberto");
+        aluno1.setCurso("Android Developers");
+        aluno1.setCidade("Rio de Janeiro");
         listaAlunos.add(aluno1);
+
+        Aluno aluno2 = new Aluno();
+        aluno2.setNome("Michael Bale");
+        aluno2.setCurso("Android Developers");
+        aluno2.setCidade("Guarulhos");
+        listaAlunos.add(aluno2);
+
+        Aluno aluno3 = new Aluno();
+        aluno3.setNome("Eduardo Campos");
+        aluno3.setCurso("Android Developers");
+        aluno3.setCidade("Belo Horizonte");
+        listaAlunos.add(aluno3);
+
 
         AlunoAdapter alunoAdapter = new AlunoAdapter(listaAlunos);
 
